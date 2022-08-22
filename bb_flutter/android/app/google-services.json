@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "628470410297",
+    "firebase_url": "https://bookify-269610.firebaseio.com",
+    "project_id": "bookify-269610",
+    "storage_bucket": "bookify-269610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628470410297:android:b50d727f2a0f11ae9ef1e8",
+        "android_client_info": {
+          "package_name": "com.armind.bookify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628470410297-14hemmtsoliu2cb84qluihfe575m47hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.armind.bookify",
+            "certificate_hash": "1d37a71e0bf42d822ca09a961d977cf76982183b"
+          }
+        },
+        {
+          "client_id": "628470410297-krl1bkm87cqkdpb9quo8rsr7skqjjvs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDozJv6okHIwz0PfNEI9ef73K1PzFjBXNA"
+        },
+        {
+          "current_key": "AIzaSyDvRgF-nFxH3-mAkFzMi_2wU9rCOpBzx1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628470410297-krl1bkm87cqkdpb9quo8rsr7skqjjvs8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "628470410297-qa42kr41sqkqnr476i9gjtk2n5apiekv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.armind.bookify"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628470410297:android:c4f01bf76b3559049ef1e8",
+        "android_client_info": {
+          "package_name": "com.armind.bookybusiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628470410297-cts2vntc6r8166aseqvmv2j2ve3rs04o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.armind.bookybusiness",
+            "certificate_hash": "da3722bab2d1668c1e444e3fd8ba1e59e368a38f"
+          }
+        },
+        {
+          "client_id": "628470410297-krl1bkm87cqkdpb9quo8rsr7skqjjvs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDozJv6okHIwz0PfNEI9ef73K1PzFjBXNA"
+        },
+        {
+          "current_key": "AIzaSyDvRgF-nFxH3-mAkFzMi_2wU9rCOpBzx1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628470410297-krl1bkm87cqkdpb9quo8rsr7skqjjvs8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "628470410297-qa42kr41sqkqnr476i9gjtk2n5apiekv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.armind.bookify"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

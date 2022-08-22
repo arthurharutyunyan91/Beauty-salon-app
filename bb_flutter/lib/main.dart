@@ -4,7 +4,7 @@ import 'package:flutter_app/resources/RColors.dart';
 import 'package:flutter_app/util/splesh_factory.dart';
 import 'package:get/get.dart';
 
-import 'app2/authentication/onboarding/screen.dart';
+import 'app/authentication/onboarding/screen.dart';
 
 void main() {
   return runApp(MyApp());

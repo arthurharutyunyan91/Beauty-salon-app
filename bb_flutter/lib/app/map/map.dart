@@ -4,7 +4,6 @@ import 'package:flutter_app/model/business.dart';
 import 'package:flutter_app/widget/gradient/vertical_gradient.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-
 import '../../widget/business_item/business_item.dart';
 
 class MapPage extends StatefulWidget {
@@ -104,9 +103,7 @@ class SelectedBusiness extends StatelessWidget {
                 height: 150,
                 child: BusinessWidget(
                   business: controller.selectedBusiness,
-                  onTap: () {
-                    //TODO
-                  },
+                  onTap: controller.goToBusinessDetails,
                 ),
               ),
             ),

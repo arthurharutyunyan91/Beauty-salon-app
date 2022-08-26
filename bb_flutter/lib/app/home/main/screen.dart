@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 import '../tabs/appointments_tab/screen.dart';
 import '../tabs/favorites_tab/screen.dart';
 import '../tabs/home_tab/screen.dart';
+import '../tabs/profile_tab/profile_tab.dart';
 import '../tabs/search_tab/screen.dart';
 import 'controller.dart';
 
@@ -19,8 +20,7 @@ class MainScreen extends StatelessWidget {
       SearchTab2(),
       FavoritesTab2(),
       AppointmentsTab2(),
-      Container(),
-      // ProfileTab(),
+      ProfileTab()
     ];
 
     return GetBuilder<MainController>(builder: (_) {
@@ -52,31 +52,31 @@ List<PersistentBottomNavBarItem> navBarsItems() {
     PersistentBottomNavBarItem(
       icon: Icon(Icons.home),
       title: '',
-      activeColorPrimary: Colors.teal,
+      activeColorPrimary: Colors.tealAccent,
       inactiveColorPrimary: Colors.white70,
     ),
     PersistentBottomNavBarItem(
       icon: Icon(Icons.search),
       title: '',
-      activeColorPrimary: Colors.teal,
+      activeColorPrimary: Colors.tealAccent,
       inactiveColorPrimary: Colors.white70,
     ),
     PersistentBottomNavBarItem(
       icon: Icon(Icons.favorite),
       title: '',
-      activeColorPrimary: Colors.teal,
+      activeColorPrimary: Colors.tealAccent,
       inactiveColorPrimary: Colors.white70,
     ),
     PersistentBottomNavBarItem(
       icon: Icon(Icons.book),
       title: '',
-      activeColorPrimary: Colors.teal,
+      activeColorPrimary: Colors.tealAccent,
       inactiveColorPrimary: Colors.white70,
     ),
     PersistentBottomNavBarItem(
       icon: Icon(Icons.person),
       title: '',
-      activeColorPrimary: Colors.teal,
+      activeColorPrimary: Colors.tealAccent,
       inactiveColorPrimary: Colors.white70,
     ),
   ];

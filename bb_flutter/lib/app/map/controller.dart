@@ -6,6 +6,8 @@ import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
+import '../details/main/screen.dart';
+
 class MapScreenController extends GetxController {
   final List<Business> businesses;
   Business selectedBusiness;
@@ -19,6 +21,10 @@ class MapScreenController extends GetxController {
   MapScreenController(this.businesses) {
     _initIcons();
     animateToLocation();
+  }
+
+  goToBusinessDetails() {
+    Get.to(BusinessDetailsScreen(business: selectedBusiness));
   }
 
   onMapCreated(GoogleMapController controller) {

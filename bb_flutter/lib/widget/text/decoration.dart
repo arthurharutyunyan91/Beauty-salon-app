@@ -11,6 +11,7 @@ getUnderlineDecoration(
     hintStyle: TextStyle(color: Colors.white24),
     prefixIcon: prefixIcon,
     suffixIcon: suffixIcon,
+    iconColor: Colors.white24,
     enabledBorder: new UnderlineInputBorder(
       borderSide: BorderSide(color: Colors.white24),
     ),

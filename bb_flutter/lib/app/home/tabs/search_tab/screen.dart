@@ -12,24 +12,24 @@ class SearchTab2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: RColors.backgroundColor,
-      child: DefaultTabController(
-        length: 3,
-        child: CustomScrollView(
-          slivers: <Widget>[
-            _SliverAppBar(),
-            GetBuilder<SearchTabController>(
-              builder: (_) {
-                return _SliverBusinessesList(
+    return GetBuilder<SearchTabController>(
+      builder: (_) {
+        return Container(
+          color: RColors.backgroundColor,
+          child: DefaultTabController(
+            length: 3,
+            child: CustomScrollView(
+              slivers: <Widget>[
+                _SliverAppBar(),
+                _SliverBusinessesList(
                   businesses: controller.businessesByCategory,
                   onBusinessTap: controller.goToBusinessDetails,
-                );
-              },
+                ),
+              ],
             ),
-          ],
-        ),
-      ),
+          ),
+        );
+      },
     );
   }
 }
@@ -50,7 +50,12 @@ class _SliverAppBarState extends State<_SliverAppBar>
     _tabController = TabController(length: 3, vsync: this)
       ..addListener(() => controller.updateBusinessesByCategory(
           SearchTabController.tabs[_tabController.index]));
-    _tabController.index = controller.selectedCategory;
+  }
+
+  @override
+  void didUpdateWidget(covariant _SliverAppBar oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    _tabController.index = controller.selectedCategoryIndex;
   }
 
   @override

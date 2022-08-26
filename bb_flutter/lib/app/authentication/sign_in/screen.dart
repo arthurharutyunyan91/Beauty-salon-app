@@ -56,7 +56,7 @@ class _SignInForm extends StatelessWidget {
               },
               style: TextStyle(color: Colors.white),
               hint: 'Email',
-              prefixIcon: Icon(Icons.mail_outline),
+              prefixIcon: Icon(Icons.mail_outline, color: Colors.white24,),
             ),
             SizedBox(height: 8),
             TextInputField(
@@ -70,7 +70,7 @@ class _SignInForm extends StatelessWidget {
               },
               style: TextStyle(color: Colors.white),
               hint: 'Password',
-              prefixIcon: Icon(Icons.lock_outline),
+              prefixIcon: Icon(Icons.lock_outline, color: Colors.white24,),
             ),
             SizedBox(height: 50),
             OutlineButtonWidget(

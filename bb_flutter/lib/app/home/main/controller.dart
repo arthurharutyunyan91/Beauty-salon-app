@@ -1,5 +1,4 @@
 import 'package:flutter_app/model/appointment.dart';
-import 'package:flutter_app/model/appointment.dart';
 import 'package:flutter_app/model/business.dart';
 import 'package:flutter_app/util/strings.dart';
 import 'package:get/get.dart';
@@ -11,7 +10,6 @@ import '../../../repository/mock_repository/mock_repository.dart';
 
 class MainController extends GetxController {
   final navBarController = PersistentTabController(initialIndex: 0);
-  int navigationIndex = 0;
   var businessCategory = hairCategory;
 
   List<BusinessSale> _businessSales;
@@ -52,7 +50,7 @@ class MainController extends GetxController {
 
   // change bottom navigation bar index
   changeNavIndex(int index) {
-    navigationIndex = index;
+    navBarController.index = index;
     update();
   }
 }

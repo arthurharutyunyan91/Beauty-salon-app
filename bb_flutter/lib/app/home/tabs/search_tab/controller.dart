@@ -9,7 +9,7 @@ import '../../../details/main/screen.dart';
 class SearchTabController extends GetxController {
   static const List<String> tabs = ['Hair', 'Nail', 'MakeUp'];
   final MainController _mainController = Get.find();
-  var selectedCategory = 0;
+  var selectedCategoryIndex = 0;
 
   List<Business> _businessesByCategory;
   List<Business> get businessesByCategory => _businessesByCategory;
@@ -20,7 +20,7 @@ class SearchTabController extends GetxController {
   }
 
   updateBusinessesByCategory(String selectedCategory) {
-    this.selectedCategory = tabs.indexOf(selectedCategory);
+    this.selectedCategoryIndex = tabs.indexOf(selectedCategory);
     _businessesByCategory = _mainController.businesses
         .where((i) => i.categories.contains(selectedCategory))
         .toList();

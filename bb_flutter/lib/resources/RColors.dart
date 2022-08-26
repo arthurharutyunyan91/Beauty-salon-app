@@ -19,6 +19,6 @@ class RColors {
   static const Color blackShape3 = Color.fromARGB(255, 16, 16, 16);
   static const Color blackShape4 = Color.fromARGB(255, 19, 19, 19);
 
-  static const Color primaryColor = Colors.teal;
-  static const Color secondaryColor = Colors.tealAccent;
+  static const Color primaryColor = Colors.tealAccent;
+  static const Color secondaryColor = Colors.teal;
 }
